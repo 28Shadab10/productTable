@@ -1,0 +1,20 @@
+.section{
+    padding: 60px;
+  }
+  
+  td {
+      padding: 10px;
+      font-size: larger;
+      
+  }
+  .btn {
+    margin: 40px 0px;
+    padding: 10px 40px;
+    width: 10%;
+    border: 5px solid black;
+    text-align: center;
+  }
+  .result{
+      font-size: large;
+      width: 80%;
+  }

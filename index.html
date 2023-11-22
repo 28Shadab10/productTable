@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- section -->
+
+    <div class="section">
+        <!-- table 1 -->
+      <table class="input">
+        <tr>
+          <td><label for="productId">Product Id</label></td>
+          <td><input type="text" id="productId" value="" /></td>
+          <td id="productIdError"></td>
+        </tr>
+        <tr>
+          <td><label for="productName">Product Name</label></td>
+          <td><input type="text" id="productName" value="" /></td>
+          <td id="productNameError"></td>
+        </tr>
+        <tr>
+          <td><label for="productPrice">Product Price</label></td>
+          <td><input type="number" id="productPrice" value="" /></td>
+          <td id="productPriceError"></td>
+        </tr>
+      </table>
+      <div class="btn" onclick="addProduct()">ADD PRODUCT</div>
+      <!-- table 2 -->
+      <table class="result">
+        <tr>
+          <th>Product Id</th>
+          <th>Product Name</th>
+          <th>Product Price</th>
+        </tr>
+        <tbody id="tBody"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
